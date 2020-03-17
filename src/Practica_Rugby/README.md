@@ -1,8 +1,8 @@
 He considerado en esta práctica que:
 ===
 
--Un `Torneo` está formado por un `ArrayList` de `jornadas`.  
--Una `Jornada` está formada por un `ArrayList` de `partidos`.  
+-Un `Torneo` está formado por un `ArrayList` de `jornadas` (no sabemos meter un ArrayList dentro de un constructor y yo no he conseguido hacerlo por mi cuenta).  
+-Una `Jornada` está formada por un `ArrayList` de `partidos`(no sabemos meter un ArrayList dentro de un constructor y yo no he conseguido hacerlo por mi cuenta).  
 -Un partido siempre va a tener asociado un equipo `local`, otro `visitante`, un `estadio` y un `arbitro`; así que
 estos parámetros los he incluido en el constructor de la clase `Partido`.  
 -Un estadio siempre va a estar asociado a un equipo en este programa y viceversa por lo que en el constructor
