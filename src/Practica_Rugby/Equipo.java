@@ -16,15 +16,12 @@ public class Equipo {
 	
 	public Estadio estadio;
 	
-	public java.util.Collection partidosLocal = new ArrayList<Partido>();
-	
-	public java.util.Collection partidosVisitante = new ArrayList<Partido>();
-	
 	public java.util.Collection partidos = new ArrayList<Partido>();
 
-	public Equipo(Pais nombre, Entrenador esEntrenadoPor) {
+	public Equipo(Pais nombre, Entrenador esEntrenadoPor, Estadio estadio) {
 		this.nombre = nombre;
 		this.esEntrenadoPor = esEntrenadoPor;
+		this.estadio = estadio;
 	}
 
 	

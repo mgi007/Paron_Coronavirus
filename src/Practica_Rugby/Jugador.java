@@ -17,9 +17,10 @@ public class Jugador extends Persona {
 	public Equipo equipo;
 	
 
-	public Jugador(String nombre, Date fechaNacimiento, Posicion posicion) {
+	public Jugador(String nombre, Date fechaNacimiento, Posicion posicion, Equipo equipo) {
 		super(nombre,fechaNacimiento);
 		this.posicion = posicion;
+		this.equipo = equipo;
 	}	
 	
 	public Posicion getPosicion() {

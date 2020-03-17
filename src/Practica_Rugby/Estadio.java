@@ -7,6 +7,7 @@ public class Estadio {
 	private String nombre;
 	private int capacidad;
 	private String ciudad;
+	
 	public Equipo equipo;
 	
 	public java.util.Collection partidos = new ArrayList<Partido>();

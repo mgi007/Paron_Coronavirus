@@ -50,4 +50,8 @@ public class Partido {
 	public void setBonusVisitante(int bonusVisitante) {
 		this.bonusVisitante = bonusVisitante;
 	}
+	
+	public void resultado() {
+		// Muestra el resultado del partido por pantalla. Tambíen muestra el bonus que recibe cada equipo por este partido.
+	}
 }
