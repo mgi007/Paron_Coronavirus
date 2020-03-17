@@ -1,11 +1,14 @@
 package Practica_Rugby;
 
 import java.sql.Date;
+import java.util.ArrayList;
 
 public class Torneo {
 	
 	private Date anno;
-
+	
+	public java.util.Collection jornadas = new ArrayList<Jornada>();
+	
 	public Torneo(Date anno) {
 		this.anno = anno;
 	}
@@ -18,6 +21,4 @@ public class Torneo {
 		this.anno = anno;
 	}
 	
-	
-
 }

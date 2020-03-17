@@ -10,11 +10,32 @@ enum Posicion {
 
 public class Jugador extends Persona {
 	
-	Posicion posicion;
+	private Posicion posicion;
+
+	private boolean capitan;
 	
+	public Equipo equipo;
+	
+
 	public Jugador(String nombre, Date fechaNacimiento, Posicion posicion) {
 		super(nombre,fechaNacimiento);
 		this.posicion = posicion;
+	}	
+	
+	public Posicion getPosicion() {
+		return posicion;
+	}
+
+	public void setPosicion(Posicion posicion) {
+		this.posicion = posicion;
+	}
+
+	public boolean isCapitan() {
+		return capitan;
+	}
+
+	public void setCapitan(boolean capitan) {
+		this.capitan = capitan;
 	}
 
 }

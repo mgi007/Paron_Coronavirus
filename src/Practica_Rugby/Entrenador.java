@@ -4,8 +4,11 @@ import java.sql.Date;
 
 public class Entrenador extends Persona {
 	
-	public Entrenador(String nombre, Date fechaNacimiento) {
+	public Equipo entrena;
+	
+	public Entrenador(String nombre, Date fechaNacimiento, Equipo entrena) {
 		super(nombre,fechaNacimiento);
+		this.entrena = entrena;
 	}
 
 }

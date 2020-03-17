@@ -7,11 +7,23 @@ public class Partido {
 	private int bonusLocal;
 	private int bonusVisitante;
 	
-	public Partido(int puntosLocal, int puntosVisitante, int bonusLocal, int bonusVisitante) {
+	public Arbitro esArbitradoPor;
+	
+	public Equipo local;
+	
+	public Equipo visitante;
+	
+	public Estadio estadio;
+	
+	public Partido(int puntosLocal, int puntosVisitante, int bonusLocal, int bonusVisitante, Arbitro esArbitradoPor, Equipo local, Equipo visitante, Estadio estadio) {
 		this.puntosLocal = puntosLocal;
 		this.puntosVisitante = puntosVisitante;
 		this.bonusLocal = bonusLocal;
 		this.bonusVisitante = bonusVisitante;
+		this.esArbitradoPor = esArbitradoPor;
+		this.local = local;
+		this.visitante = visitante;
+		this.estadio = estadio;
 	}
 	
 	public int getPuntosLocal() {
